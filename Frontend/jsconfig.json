@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/actions/*": ["../Backend/actions/*"],
+      "@/lib/*": ["../Backend/lib/*"],
+      "@/prisma/*": ["../Backend/prisma/*"],
+      "@/*": ["./*"]
+    }
+  }
+}
